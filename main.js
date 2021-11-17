@@ -11,6 +11,10 @@ function showTime() {
     var session = "PM";
 
 
+    if (h == 19){
+        h=0
+    }
+
 
     if (h == 0){
         h=12
