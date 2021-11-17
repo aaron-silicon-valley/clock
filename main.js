@@ -8,12 +8,13 @@ function showTime() {
     var m = date.getMinutes();
     var s = date.getSeconds();
     var timeZone = 'Central Standard Time';
-    var session = "AM";
-    if (h - 12 > 0){
-        session = "PM"
-    }
+    var session = "PM";
+
+
+
     if (h == 0){
         h=12
+        session = "AM"
 
     }
     if (s <10 ){
